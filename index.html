@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick WhatsApp Link</title>
+</head>
+<body>
+    <h2>Quick WhatsApp Device Linking</h2>
+    
+    <!-- Input your phone number with the international code but no plus (+) symbol -->
+    <a href="https://wa.me/0986103388" target="_blank">
+        Click here to connect on WhatsApp
+    </a>
+
+    <!-- JavaScript to dynamically create a WhatsApp link -->
+    <script>
+        const phoneNumber = "0986103388"; // Replace with your phone number
+        const link = `https://wa.me/${phoneNumber}`;
+        document.querySelector('a').href = link;
+    </script>
+</body>
+</html>
+
